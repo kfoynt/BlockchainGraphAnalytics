@@ -73,9 +73,6 @@ def get_multiple_layers_ether_transaction(account, layer = 2, startBlock = 0 , e
   # BFS
   for i in range(1, layer):
     current_layer_address_set = current_address_set - total_address_set
-
-    print (len(current_layer_address_set))
-
     total_address_set.update(current_address_set)
 
     for address in current_layer_address_set:
@@ -124,5 +121,3 @@ if __name__ == "__main__":
   
   get_multiple_layers_ether_transaction(eth_utils.to_normalized_address(address), layer)
   generate_edgelist(nickname)
-
-  # print ((w3.eth.getCode(w3.toChecksumAddress('0xf056f435ba0cc4fcd2f1b17e3766549ffc404b94'))) == b'')
