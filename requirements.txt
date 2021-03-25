@@ -29,7 +29,7 @@ parsimonious==0.8.1
 protobuf==3.10.0
 pycryptodome==3.9.3
 pyrsistent==0.15.5
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.22.0
 rlp==1.1.0
 sets==0.3.2
