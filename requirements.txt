@@ -35,7 +35,7 @@ rlp==1.1.0
 sets==0.3.2
 six==1.13.0
 toolz==0.10.0
-urllib3==1.25.7
+urllib3==1.25.8
 varint==1.0.2
 web3==5.3.0
 websockets==8.1
